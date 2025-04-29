@@ -1,103 +1,76 @@
 import Image from "next/image";
 
+import { FaRegHandSpock } from "react-icons/fa";
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className=" px-[40px]">
+      <div className="relative my-[20px] md:fixed  md:left-1/2 top-[20px] md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:min-w-[500px]  bg-white rounded-[24px] border-[1px] border-gray-200 shadow-md p-[30px]">
+        <div className="absolute top-[30px] right-[-30px] md:right-[-30px] flex flex-col gap-y-[14px] font-mali">
+          <FaRegHandSpock />
+          <span className="text-[14px]">Q</span>
+          <span className="text-[14px]">U</span>
+          <span className="text-[14px]">Ỳ</span>
+          <span className="text-[14px]">N</span>
+          <span className="text-[14px]">H</span>
+          <span className="text-[14px]">.</span>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <h1 className="font-dancing">
+          <span className="text-[24px]"> I want to</span>
+          <br />
+          <span className="text-[40px] font-semibold"> Say Sorry</span>{" "}
           <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+            src="/images/sorry.png"
+            alt=""
+            width={236}
+            height={419}
+            className="w-[80px] inline-block mb-[15px]"
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        </h1>
+
+        {/* <p>Gửi cậu chiếc web nhỏ này</p> */}
+        <p>
+          Tớ nghĩ tớ thật tệ nếu không tìm ra cách giải quyết. Giống 1 ngày đẹp
+          trời, tự nhiên có đứa làm mình khó chịu. Cũng một phần lần đầu tớ biết
+          có người khó chịu với từ Ừ🚫 như thế. Lúc đầu thì tớ chỉ nghĩ đơn giản
+          là ngữ cảnh lúc đấy làm cậu khó chịu vì từ Ừ🚫 lúc đấy mang cảm xúc
+          như gượng ép. Nhưng giờ tớ thấy cậu thực sự ghét nó rồi. <br /> <br />
+          Đây cũng là lời xin lỗi tớ muốn gửi tới cậu để cậu dịu lại hơn. <br />{" "}
+          <br />
+          À, tớ thấy xin lỗi chưa đủ, <br />
+          ...
+          <br />
+          <br />
+          Tớ muốn <span className="italic">hối lộ</span> chút đồ uống ấm nóng,
+          cậu xem xét phê duyệt đề nghị này của tớ nhớ ? Nó cũng dịu bụng 1 phần
+          đó. <br />
+          <br />
+          <p>Tớ hứa không làm việc cùng Ừ🚫 nữa.</p>
+          <span className="font-bold">hịhị</span>
+          <div className="mt-[20px] flex items-center justify-center gap-x-[30px]">
+            <Image
+              src="/images/drink-1.jpg"
+              alt=""
+              width={236}
+              height={419}
+              className="size-[80px] object-cover rounded-full"
+            />
+            <Image
+              src="/images/drink-2.jpg"
+              alt=""
+              width={236}
+              height={419}
+              className="size-[80px] bg-left object-left object-cover rounded-full"
+            />
+            <Image
+              src="/images/croissant.webp"
+              alt=""
+              width={236}
+              height={419}
+              className="size-[80px] object-cover rounded-full"
+            />
+          </div>
+        </p>
+      </div>
     </div>
   );
 }
